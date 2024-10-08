@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Tandoc,Jose Miguel A. Project 02</title>
+ <style type="text/css">
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  #container{
+    margin: 20px;
+    background-color: aqua;
+  }
+  #LogoNavigation{
+    width: 100%;
+            height: 50px;
+            background-color: lightgray;
+            display: flex; 
+            justify-content: space-between;
+            align-items: center; 
+            padding-left: 2%;
+            padding-right: 2%; 
+            margin-bottom: 10px;
+    }
+    #LogoNavigation div {
+            flex: 0 1 auto; 
+        }
+        #Navigation {
+            margin-left: auto; 
+            padding-right: 100px; 
+            padding-left: 15px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        #Header-Banner{
+     width:100% ;
+     min-height: 50px ;
+     background-color: lightgray;
+     text-align: center;
+     line-height: 50px;
+     margin-bottom: 10px;
+    }
+    #TextArea{
+     width:100% ;
+     min-height: 50px ;
+     background-color: lightgray;
+     text-align: center;
+     line-height: 50px;
+     margin-bottom: 10px;
+    }
+    #BoxContainer {
+            display: flex; 
+            justify-content: space-around; 
+        }
+        .box {
+            flex: 1; 
+            width: 300px;
+            margin: 0 10px; 
+            padding: 100px; 
+            background-color: lightgray; 
+            text-align: center;
+            border: 1px solid #ccc; 
+            min-height: 100px; 
+        }
+        
+        .box:first-child {
+            margin-left: 0;
+        }
+        .box:last-child {
+            margin-right: 0;
+        }
+    #Footer{
+        width: 100%;
+        height: 30px;
+        background-color: lightgrey; 
+        text-align: center; 
+        line-height: 30px; 
+        margin-top: 10px; 
+    }   
+ </style>
+</head>
+
+<body>
+ <div id="container">
+   <div id="LogoNavigation">
+    <div>Logo</div>
+    <div id="Navigation">Navigation</div>
+   </div>
+
+   <div id="Header-Banner">
+    Header/Banner
+   </div>
+
+   <div id="TextArea">
+    Intro Text Area
+   </div>
+
+   <div id="BoxContainer">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </div>
+  <div id="Footer">
+   Footer
+  </div>
+ </div>
+</body>
+
+
+</html>
